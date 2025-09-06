@@ -14,19 +14,19 @@ if %errorlevel% neq 0 (
 
 echo.
 echo Chon file python de dong goi thanh exe:
-echo 1. fake_ransomware.py (Basic)
-echo 2. wannacry_prank_ultimate.py (Ultimate)
+echo 1. ransomware.py (Basic)
+echo 2. ultimate.py (Ultimate)
 set /p choice="Nhap lua chon (1 hoac 2): "
 
 if "%choice%"=="1" (
-    set "pyfile=fake_ransomware.py"
+    set "pyfile=ransomware.py"
     set "exename=0xVN_Prank"
 ) else if "%choice%"=="2" (
-    set "pyfile=wannacry_prank_ultimate.py"
+    set "pyfile=ultimate.py"
     set "exename=0xVN_Ultimate"
 ) else (
-    echo Lua chon khong hop le. Mac dinh dong goi fake_ransomware.py
-    set "pyfile=fake_ransomware.py"
+    echo Lua chon khong hop le. Mac dinh dong goi ransomware.py
+    set "pyfile=ransomware.py"
     set "exename=0xVN_Prank"
 )
 
