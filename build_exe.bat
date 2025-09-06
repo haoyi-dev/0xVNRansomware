@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo    0xVN RANSOMWARE PRANK EXE BUILDER
+echo            Haoyi Developer
 echo ========================================
 echo.
 
